@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".navbar li a").mouseover(function(){$(".navbar li a").removeClass(),$(this).addClass("active"),$(".subnav").hide("normal");var t=$(this).offset().left-10,a=$(this).offset().top+35,s=$(this).attr("rel"),e=$(".subnav[name="+s+"]");e.css(e.width()+t>980?{left:1060-e.width(),top:a}:{left:t,top:a}),e.show("normal")})});

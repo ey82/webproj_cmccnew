@@ -1,0 +1,138 @@
+// File: layout.sass
+// Author: Elvis Yao
+// Date: 2014-08-05
+
+//Base Set
+$fullwidth: 1008px
+$pagewidth: 980px
+$fontstack: "微软雅黑", "宋体", Arial, Helvetica, sans-serif
+$fontsize: 12px
+$block-wid: 360px	//模块宽度
+
+//Color Set
+$color-point: #c60952
+
+//------------------------------------------------------------
+
+body
+	font-family: $fontstack
+	font-size: $fontsize
+	margin: 0 auto
+a
+	text-decoration: none
+
+.container 
+	width: $fullwidth
+	margin: 0 auto
+
+	.warp 
+		width: $pagewidth
+//顶部导航
+.topnav 
+	width: 100%
+	height: 540px
+	display: block
+	background: url("../images/top_bg_main.jpg") no-repeat
+
+	.logo
+		float: left
+		position: relative
+		top: 37px
+		left: 17px
+		display: inline-block
+
+	.text
+		float: right
+		color: $color-point
+		position: relative
+		right: 30px
+		ul 
+			li
+				display: inline-block
+				margin: auto 8px
+			a
+				color: $color-point
+
+	.navbar
+		float: right
+		display: inline-block
+		position: relative
+		//top: 30px
+		right: 40px
+		height: 39px
+		border: 1px solid $color-point
+		background: url("../images/navbar_bg.png") repeat-x
+		ul
+			margin: 0
+			padding-left: 10px
+			padding-right: 10px
+			li
+				display: inline-block
+				margin: auto 8px
+			a
+				color: white
+				display: inline-block
+				line-height: 39px
+			a.active
+				background: url("../images/navbar_mask.png") repeat-x
+	.subnav
+		display: none
+		background: white
+		//float: left
+		position: absolute
+		left: 10px
+		top: 20px
+		ul
+			margin: 0
+			padding-left: 10px
+			padding-right: 10px
+			li
+				display: inline-block
+				margin: 0 8px
+				color: $color-point
+			a
+				color: $color-point
+				line-height: 2.2em
+			a:hover
+				font-weight: 600
+	//搜索框浮动栏
+	#searchbar
+		display: block
+		float: left
+		position: absolute
+		left: 821px
+		top: 372px
+		.box
+			width: 189px
+			height: 19px
+			background: transparent
+			border: none
+			padding: 0
+		.btn
+			margin-left: 5px
+			width: 48px
+			height: 26px
+			background: transparent
+			border: none
+//主体内容
+.middleConts
+	margin-top: 16px
+	.leftpart
+		display: inline-block
+		width: 242px
+		.block
+			margin-top: 10px
+			.title
+				height: 24px
+				background: url("../images/midc_block_t.jpg") repeat-x
+				color: white
+				line-height: 24px
+				padding-left: 5px
+			.cont
+				border: 1px solid #e7e7e7
+				min-height: 160px
+		.slider
+			border: 1px solid #e7e7e7
+			height: 200px
+			text-align: center
+			vertical-align: 50%

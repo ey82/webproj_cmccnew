@@ -1,0 +1,116 @@
+@charset "UTF-8";
+body {
+  font-family: "微软雅黑", "宋体", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  margin: 0 auto; }
+
+a {
+  text-decoration: none; }
+
+.container {
+  width: 1008px;
+  margin: 0 auto; }
+  .container .warp {
+    width: 980px; }
+
+.topnav {
+  width: 100%;
+  height: 540px;
+  display: block;
+  background: url("../images/top_bg_main.jpg") no-repeat; }
+  .topnav .logo {
+    float: left;
+    position: relative;
+    top: 37px;
+    left: 17px;
+    display: inline-block; }
+  .topnav .text {
+    float: right;
+    color: #c60952;
+    position: relative;
+    right: 30px; }
+    .topnav .text ul li {
+      display: inline-block;
+      margin: auto 8px; }
+    .topnav .text ul a {
+      color: #c60952; }
+  .topnav .navbar {
+    float: right;
+    display: inline-block;
+    position: relative;
+    right: 40px;
+    height: 39px;
+    border: 1px solid #c60952;
+    background: url("../images/navbar_bg.png") repeat-x; }
+    .topnav .navbar ul {
+      margin: 0;
+      padding-left: 10px;
+      padding-right: 10px; }
+      .topnav .navbar ul li {
+        display: inline-block;
+        margin: auto 8px; }
+      .topnav .navbar ul a {
+        color: white;
+        display: inline-block;
+        line-height: 39px; }
+      .topnav .navbar ul a.active {
+        background: url("../images/navbar_mask.png") repeat-x; }
+  .topnav .subnav {
+    display: none;
+    background: white;
+    position: absolute;
+    left: 10px;
+    top: 20px; }
+    .topnav .subnav ul {
+      margin: 0;
+      padding-left: 10px;
+      padding-right: 10px; }
+      .topnav .subnav ul li {
+        display: inline-block;
+        margin: 0 8px;
+        color: #c60952; }
+      .topnav .subnav ul a {
+        color: #c60952;
+        line-height: 2.2em; }
+      .topnav .subnav ul a:hover {
+        font-weight: 600; }
+  .topnav #searchbar {
+    display: block;
+    float: left;
+    position: absolute;
+    left: 821px;
+    top: 372px; }
+    .topnav #searchbar .box {
+      width: 189px;
+      height: 19px;
+      background: transparent;
+      border: none;
+      padding: 0; }
+    .topnav #searchbar .btn {
+      margin-left: 5px;
+      width: 48px;
+      height: 26px;
+      background: transparent;
+      border: none; }
+
+.middleConts {
+  margin-top: 16px; }
+  .middleConts .leftpart {
+    display: inline-block;
+    width: 242px; }
+    .middleConts .leftpart .block {
+      margin-top: 10px; }
+      .middleConts .leftpart .block .title {
+        height: 24px;
+        background: url("../images/midc_block_t.jpg") repeat-x;
+        color: white;
+        line-height: 24px;
+        padding-left: 5px; }
+      .middleConts .leftpart .block .cont {
+        border: 1px solid #e7e7e7;
+        min-height: 160px; }
+    .middleConts .leftpart .slider {
+      border: 1px solid #e7e7e7;
+      height: 200px;
+      text-align: center;
+      vertical-align: 50%; }
