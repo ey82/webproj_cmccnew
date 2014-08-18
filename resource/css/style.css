@@ -1,5 +1,5 @@
-.rightpart .block .block-r .title {
-  background: url("../images/iconAprite.png") no-repeat 0 0;
+.rightpart .block .title, .rightpart .block-r .title {
+  background: url("../images/iconSprite.png") no-repeat 0 0;
   width: 10;
   height: 10;
   padding-left: 15; }
