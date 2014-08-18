@@ -1,5 +1,5 @@
-.speaker .name {
-  font-weight: bold;
-  font-size: 22px; }
-.speaker .position {
-  font-size: 12px; }
+.rightpart .block .block-r .title {
+  background: url("../images/iconAprite.png") no-repeat 0 0;
+  width: 10;
+  height: 10;
+  padding-left: 15; }

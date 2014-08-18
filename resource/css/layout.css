@@ -96,6 +96,7 @@ a {
 .middleConts {
   margin-top: 16px; }
   .middleConts .leftpart {
+    float: left;
     display: inline-block;
     width: 242px; }
     .middleConts .leftpart .block {
@@ -114,3 +115,14 @@ a {
       height: 200px;
       text-align: center;
       vertical-align: 50%; }
+  .middleConts .rightpart {
+    float: left;
+    display: inline-block;
+    width: 728px; }
+    .middleConts .rightpart .block {
+      float: left;
+      width: 359; }
+    .middleConts .rightpart .block-r {
+      float: left;
+      margin-left: 10;
+      width: 359; }
